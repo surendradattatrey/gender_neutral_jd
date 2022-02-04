@@ -1,0 +1,37 @@
+Token,Gender,Score
+he,Masculine ,1
+his,Masculine ,1
+him,Masculine ,1
+she,Feminine,2
+her,Feminine,2
+it,Neuter,0
+its,Neuter,0
+they,Neuter,0
+their,Neuter,0
+you,Neuter,0
+your,Neuter,0
+our,Neuter,0
+them,Neuter,0
+He,Masculine ,1
+His,Masculine ,1
+Him,Masculine ,1
+She,Feminine,2
+Her,Feminine,2
+It,Neuter,0
+Its,Neuter,0
+They,Neuter,0
+Their,Neuter,0
+You,Neuter,0
+Your,Neuter,0
+Our,Neuter,0
+Them,Neuter,0
+Team,Neuter,0
+team,Neuter,0
+Manager,Neuter,0
+manager,Neuter,0
+Himself,Masculine ,1
+himself,Masculine ,1
+Hers,Feminine,2
+hers,Feminine,2
+Herself,Feminine,2
+Herself,Feminine,2
