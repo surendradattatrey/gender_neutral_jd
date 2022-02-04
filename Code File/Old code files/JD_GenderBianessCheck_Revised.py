@@ -20,14 +20,14 @@ import sys
 #nltk.download('brown')
 
 try:
-    gender_score = pd.read_csv(r'C:\Users\Shruti\Desktop\jd_bias_code\POS_gender_score.csv')
+    gender_score = pd.read_csv(r'C:\Users\jd_bias_code\POS_gender_score.csv')
 except Exception as e:
     print(sys.exc_info()[0])
     print(e)
     sys.exit("Please put Scoring file on desired location")
     
 try:    
-    Job_details = pd.read_csv (r'C:\Users\Shruti\Desktop\jd_bias_code\JD_detail.csv',encoding='cp1252')
+    Job_details = pd.read_csv (r'C:\Users\jd_bias_code\JD_detail.csv',encoding='cp1252')
 except Exception as e:
     print(sys.exc_info()[0])
     print(e)
