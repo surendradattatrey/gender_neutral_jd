@@ -8,7 +8,7 @@ Created on Mon Apr 27 18:14:29 2020
 import pandas as pd
 import os
 
-os.chdir(r'C:\\Users\\shruti_goel\\Desktop\\suredra_work')
+os.chdir(r'C:\\Users\\suredra_work')
 
 
 replacement = pd.read_excel('Word for testing.xlsx',encoding = 'utf-8')
