@@ -15,14 +15,14 @@ import pandas as pd
 stop_words = set(stopwords.words('english')) 
 
 try:    
-    Job_details = pd.read_csv ('C:/Users/surendra_dattatrey/Desktop/S&P Data/Gender Neutral JD/Open_req - APAC_IncludeIndia.csv', encoding='cp1252')
+    Job_details = pd.read_csv ('C:/Users/surendra_dattatrey/Desktop/Data/Gender Neutral JD/Open_req - APAC_IncludeIndia.csv', encoding='cp1252')
 except Exception as e:
     print(sys.exc_info()[0])
     print(e)
     sys.exit("Please put Job Description file on desired location")
 
 try:
-    gender_score = pd.read_csv(r'C:\Users\surendra_dattatrey\Desktop\S&P Data\Gender Neutral JD\POS_gender_score.csv')
+    gender_score = pd.read_csv(r'C:\Users\surendra_dattatrey\Desktop\Data\Gender Neutral JD\POS_gender_score.csv')
 except Exception as e:
     print(sys.exc_info()[0])
     print(e)
